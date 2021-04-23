@@ -1,0 +1,30 @@
+.about{
+  padding-top: 700px;
+}
+.aboutUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 280px;
+}
+.aboutUs p {
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 83.7%;
+  /* or 50px */
+  letter-spacing: -0.1em;
+}
+.preferenceGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1367px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.gridItem{
+  text-align: center;
+}
