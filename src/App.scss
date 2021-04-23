@@ -9,11 +9,24 @@ $font-family: 'Roboto Mono', monospace;
 }
 *{
   box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 ul{
   list-style: none;
 }
 a{
   text-decoration: none;
+}
+.slick-slide > div {
+  margin: 0 30px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-slide *:focus{
+  outline: none;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');

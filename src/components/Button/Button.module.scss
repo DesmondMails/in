@@ -1,0 +1,13 @@
+.welcomeButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F2F2F2;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: linear-gradient(90deg, #B71E32 0%, #202020 102%);
+  border-radius: 8px;
+  margin-top: 30px;
+  width: 250px;
+  height: 60px;
+}

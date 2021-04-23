@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div className={style.about}>
             <div className={style.aboutUs}>
-                <p>Who we are</p>
+                <p>Who we are.</p>
             </div>
             <div className={style.preferenceGrid}>
                 <div className={style.gridItem}>

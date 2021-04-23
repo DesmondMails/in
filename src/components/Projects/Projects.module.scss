@@ -1,0 +1,83 @@
+.projects{
+  display: flex;
+  background-image: url("../../images/ellipses/Rectangle _projects_head.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 120%;
+  height: 70vh;
+
+}
+.topImg{
+
+}
+.topImg img{
+  width: 100%;
+}
+.carouselContainer{
+  margin: auto;
+  //margin-top: 100px;
+  width: 1000px;
+  padding-top: 40px;
+  z-index: 1;
+}
+
+
+.leftEllipsContainer{
+  //top: 750px;
+  float: left;
+  position: absolute;
+  padding-top: 30rem;
+}
+.rightEllipsContainer{
+  position: absolute;
+  padding-top: 40rem;
+  padding-left: 44rem;
+  //position: absolute;
+  //left: 900px;
+  //top: 3156px;
+}
+.arrows{
+  position: absolute;
+  padding-left: 20rem;
+  margin-left: -2rem;
+  padding-top: 70rem;
+}
+.arrows img{
+  padding-right: 20px;
+}
+.productHeading{
+  padding-top: 400px;
+  padding-left: 213px;
+}
+.productHeading h2{
+  font-size: 60px;
+  line-height: 83.7%;
+  /* or 50px */
+  word-spacing: -0.35em;
+  letter-spacing: -0.1em;
+}
+.imgGroup{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  object-fit: contain;
+  padding-top: 30rem;
+  //top: 2900px
+}
+.imgGroup img{
+  width: 80%;
+  height: auto;
+}
+.imgGroup .first{
+  width: 30%;
+  height: auto;
+}
+.imgGroup .second{
+  width: 33%;
+  height: auto;
+}
+.imgGroup .third{
+  width: 24%;
+  height: auto;
+}

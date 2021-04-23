@@ -14,31 +14,37 @@ import About from "../About/About";
 const Welcome = () => {
     return (
         <>
-        <div className={style.welcome}>
-            <div className={style.ellipse}><img src={ellipse} /></div>
-            <div className={style.imgContainer2}>
-                <img src={second_phone} alt=""/>
-            </div>
-            <div className={style.imgContainer1}>
-                <img src={first_phone} alt=""/>
-            </div>
+            {/*<div className={style.ellipse}><img src={ellipse}/></div>*/}
+            {/*<div className={style.gridContainer}>*/}
+            <div className={style.welcome}>
 
-            <div className={style.textContainer}>
-            <div className={style.welcomeText}>
-                <h1>Nunc euismod facilisi <br/> volutpat,amet.</h1>
-            </div>
-            <div className={style.welcomeParagraph}>
-                <p>Faucibus feugiat proin odio vel<br/>
-                    pharetra ullamcorper ultrices mauris, ut. Elementum.</p>
-                <a href = '' className={style.welcomeButton}>let's talk</a>
-            </div>
+                <div className={style.textContainer}>
+                    <div className={style.welcomeText}>
+                        <h1>Nunc euismod facilisi<br/> volutpat,amet.</h1>
+                    </div>
+                    <div className={style.welcomeParagraph}>
+                        <p>Faucibus feugiat proin odio vel<br/>
+                            pharetra ullamcorper ultrices mauris, ut. Elementum.</p>
+                        <a href='' className={style.welcomeButton}>let's talk</a>
+                    </div>
                     {/*<a href = '' className={style.welcomeButton}>let's talk</a>*/}
+                </div>
+                {/*<div className={style.images}>*/}
+                {/*    <div className={style.imgContainer2}>*/}
+                {/*        <img src={second_phone} alt=""/>*/}
+                {/*    </div>*/}
+                {/*    <div className={style.imgContainer1}>*/}
+                {/*        <img src={first_phone} alt=""/>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+
+
+                {/*</div>*/}
+
             </div>
 
-        </div>
 
-
-            </>
+        </>
     );
 };
 

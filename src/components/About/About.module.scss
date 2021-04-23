@@ -1,20 +1,22 @@
 .about{
-  padding-top: 700px;
+  margin-top: 40px;
+  text-align: center;
 }
 .aboutUs{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 280px;
+  //padding-top: 280px;
+
 }
 .aboutUs p {
-
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
   line-height: 83.7%;
   /* or 50px */
   letter-spacing: -0.1em;
+  word-spacing: -0.35em;
 }
 .preferenceGrid{
   display: grid;
@@ -24,6 +26,7 @@
   max-width: 1367px;
   margin: 0 auto;
   margin-bottom: 6rem;
+  padding-top: 60px;
 }
 .gridItem{
   text-align: center;

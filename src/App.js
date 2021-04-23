@@ -4,6 +4,11 @@ import Welcome from "./components/Welcome/Welcome";
 import Video from "./components/Video/Video";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Customers from "./components/Customers/Customers";
+import Benefits from "./components/Benefits/Benefits";
+import Feedback from "./components/Feedback/Feedback";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -12,6 +17,11 @@ function App() {
             <Welcome/>
             <About/>
             <Video/>
+            <Projects />
+            <Customers />
+            <Benefits />
+            <Feedback />
+            <Footer />
         </div>
     );
 }
