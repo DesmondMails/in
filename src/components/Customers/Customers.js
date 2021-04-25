@@ -5,19 +5,38 @@ import cust2 from '../../images/customers/Volodymyr.png'
 import cust3 from '../../images/customers/Yuriy.png'
 import quotes from '../assets/icons/quotes.png'
 import ellipse from '../../images/ellipses/Ellipse_customer.png'
+import mobileCust from '../../images/mobile/mobileCust.png'
+import mobileQuotes from '../../images/mobile/quotesMobile.png'
+
 const Customers = () => {
     return (
         <div className={style.customers}>
             <div className={style.customerHeading}>
                 <h1>Customer trust us.</h1>
             </div>
-
+            <div className={style.mobileCardContainer}>
+            <div className={style.mobileCard}>
+                            <img src={mobileQuotes}/>
+                            <p>That was great cooperation.
+                            App is working really good</p>
+                            
+                     </div>
+                     <div className={style.mobileAbout}>
+                                <img src={mobileCust}/>
+                                <div className={style.mobileCardAbout}>
+                                    <p>Miroslav Olar</p>
+                                    <h4>owner of <br/> Should I Answer app</h4>
+                                </div>
+                            </div>
+                </div>
             <div className={style.preferenceGrid}>
                 <div className={style.cardContainer}>
-                     <div className={style.cardImg}>
+                     
+                     
+                    <div className={style.cardDesc + " " + style.cardNone}>
+                    <div className={style.cardImg}>
                          <img src={cust1} />
                      </div>
-                    <div className={style.cardDesc}>
                         <h2>Miroslav Olar</h2>
                         <p className={style.ownerText}>owner of Should I Answer app</p>
                         <img src={quotes}/>
@@ -26,7 +45,7 @@ const Customers = () => {
                         </p>
                     </div>
                 </div>
-                <div className={style.cardContainer}>
+                <div className={style.cardContainer + " " + style.cardNone}>
                      <div className={style.cardImg}>
                          <img src={cust2} />
                      </div>
@@ -39,7 +58,7 @@ const Customers = () => {
                         </p>
                     </div>
                 </div>
-                <div className={style.cardContainer}>
+                <div className={style.cardContainer + " " + style.cardNone}>
                      <div className={style.cardImg}>
                          <img src={cust3} />
                      </div>

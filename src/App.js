@@ -9,11 +9,13 @@ import Customers from "./components/Customers/Customers";
 import Benefits from "./components/Benefits/Benefits";
 import Feedback from "./components/Feedback/Feedback";
 import Footer from "./components/Footer/Footer";
+import TestNav from './components/TestNav/TestNav';
 
 function App() {
     return (
         <div className="App">
-            <Navbar/>
+            {/* <Navbar/> */}
+            <TestNav />
             <Welcome/>
             <About/>
             <Video/>

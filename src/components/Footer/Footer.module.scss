@@ -11,3 +11,8 @@
   //background-position: 400% 1300%;
   //background-position: top;
 }
+@media (max-width: 768px){
+  .footer{
+    display: none;
+  }
+}

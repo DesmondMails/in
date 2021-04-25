@@ -13,30 +13,38 @@ const Benefits = () => {
                 <div className={style.upperIcons}>
                 <div className={style.benefitsElementContainer + " " + style.salesEl}>
                     <img src={sales} />
-                    <p>To increase sales, giving customers the
+                    <p >To increase sales, giving customers the
                         opportunity to place orders directly without
                         opening a browser.
                     </p>
+                    
                 </div>
                 <div className={style.benefitsElementContainer + " " + style.searchEl}>
                     <img src={search} />
-                    <p>To facilitate the search for products in the online store
+                    <p >To facilitate the search for products in the online store
                         and counseling at the selection stage.
                     </p>
+                    
                 </div>
                 </div>
                 <div className={style.downIcons}>
                 <div className={style.benefitsElementContainer + " " + style.smileEl}>
                     <img src={smile} />
-                    <p>To create a positive image in the eyes of the target audience since
+                    <p className={style.desctopText}>To create a positive image in the eyes of the target audience since
                         every self-respecting company finds specialists
                         to create a user-friendly application for a smartphone.
+                    </p>
+                    <p className={style.mobileText}>
+                        To create a positive image in the eyes of the target audience since
                     </p>
                 </div>
                 <div className={style.benefitsElementContainer + " " + style.clockEl}>
                     <img src={clocks} />
-                    <p>To keep customers updated on new products, promotions,
+                    <p className={style.desctopText}>To keep customers updated on new products, promotions,
                         optimize personal account management, etc.
+                    </p>
+                    <p className={style.mobileText}>
+                        To keep customers updated on new products, promotions
                     </p>
                 </div>
                 </div>

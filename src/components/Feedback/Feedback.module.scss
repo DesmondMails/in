@@ -48,6 +48,9 @@
   width: 401px;
   height: 40px;
 }
+.mobileFooter{
+  display: none;
+}
 .formContainer .nameInput{
   background-image: url("../../images/name_input.png");
   background-repeat: no-repeat;
@@ -66,4 +69,66 @@
 }
 .form .Btn{
   //margin-top: 500px;
+}
+
+@media (max-width: 768px) {
+  .feedback{
+    background: url("../../images/mobile/feedback_mobile.png") no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 65vh;
+    margin-top: 5%;
+    width: 100%;
+  }
+  .img{
+    display: none;
+  }
+  .form p{
+    font-size: 17px;
+  }
+  .form h2{
+    font-size: 28px;
+  }
+  .form{
+    padding-top: 10%;
+    margin-left: 0;
+  }
+  .formContainer input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+    padding:0 10px;
+    margin-top: 36px;
+    background: none;
+    width: 300px;
+    height: 24px;
+  }
+  .formContainer{
+    margin-top: 10%;
+  }
+  .formContainer .nameInput{
+    background-image: url("../../images/mobile/nameInput_mobile.png");
+  }
+  .formContainer .emailInput{
+    background-image: url("../../images/mobile/emailInput_mobile.png");
+  }
+  .phoneInput{
+    display: none;
+  }
+  .Btn{
+    width: 204px;
+    height: 52px;
+  }
+  .mobileFooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20%;
+  }
+  .mobileFooter > div{
+    margin-right: 2rem;
+  }
+  .mobileFooter > div:last-child{
+    margin-right: 0;
+  }
 }

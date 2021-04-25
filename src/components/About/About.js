@@ -9,7 +9,7 @@ import style from './About.module.scss'
 
 const About = () => {
     return (
-        <div className={style.about}>
+        <div className={style.about} id='about'>
             <div className={style.aboutUs}>
                 <p>Who we are.</p>
             </div>

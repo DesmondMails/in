@@ -1,9 +1,7 @@
 .projects{
   display: flex;
-  background-image: url("../../images/ellipses/Rectangle _projects_head.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 80% 120%;
+  background:
+          url("../../images/ellipses/Rectangle _projects_head.png") 80% 120% no-repeat;
   height: 70vh;
 
 }
@@ -36,12 +34,12 @@
   //left: 900px;
   //top: 3156px;
 }
-.arrows{
-  position: absolute;
-  padding-left: 20rem;
-  margin-left: -2rem;
-  padding-top: 70rem;
-}
+//.arrows{
+//  position: absolute;
+//  padding-left: 20rem;
+//  margin-left: -2rem;
+//  padding-top: 70rem;
+//}
 .arrows img{
   padding-right: 20px;
 }
@@ -69,15 +67,65 @@
   width: 80%;
   height: auto;
 }
-.imgGroup .first{
-  width: 30%;
-  height: auto;
+.mobileImgGroup{
+  display: none;
 }
-.imgGroup .second{
-  width: 33%;
-  height: auto;
+.navButton {
+  background: #e0e0e0;
+  border: 1px solid #b71e32;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 48px;
+  width: 198px;
+  color: #242424;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.imgGroup .third{
-  width: 24%;
-  height: auto;
+@media (max-width: 767px) {
+  .projects{
+    display: flex;
+    background:
+            url("../../images/mobile/ellipses/projects_ellipse.png") left 50% no-repeat;
+    height: 60vh;
+    background-size: 80%;
+    justify-content: center;
+    margin-bottom: 1rem;
+    // margin-top: 30%;
+  }
+  .leftEllipsContainer{
+    display: none;
+  }
+  .rightEllipsContainer{
+    display: none;
+  }
+  .productHeading{
+    padding: 0;
+    justify-self: center;
+  }
+  .imgGroup{
+    display: none;
+  }
+  .productHeading{
+    margin-top: 20%;
+  }
+  .productHeading h2{
+    font-size: 28px;
+   
+  }
+  .mobileImgGroup{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    object-fit: contain;
+    padding-top: 7rem;
+    //top: 2900px
+  }
+  .arrows{
+    align-self: flex-start;
+    margin-left: 5%;
+  }
 }

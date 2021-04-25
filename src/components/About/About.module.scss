@@ -31,3 +31,21 @@
 .gridItem{
   text-align: center;
 }
+@media (max-width: 768px) {
+  
+  .aboutUs p{
+    font-size: 28px;
+  }
+  .gridItem h4{
+    font-size: 17px;
+  }
+  .gridItem p{
+    display: none;
+  }
+  .preferenceGrid{
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) ;
+    grid-gap: 0.625rem;
+    padding-top: 30px;
+    margin-bottom: 10%;
+  }
+}

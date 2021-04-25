@@ -45,3 +45,57 @@
 .clockEl{
   margin-left: 372px;
 }
+.mobileText{
+  display: none;
+}
+@media (max-width: 768px) {
+  .benefits{
+    padding-top: 4rem;    
+  }
+  .benefitsHeader{
+    text-align: center;
+    margin: 0;
+  }
+  .benefitsIconsContainer{
+    margin-top: 0;
+  }
+  .benefitsElementContainer p{
+    padding-top: 10px;
+    text-align: start;
+    width: 180px;
+    font-size: 17px;
+    word-spacing: -0.35rem;
+    color: black;
+  }
+  .benefitsElementContainer img{
+    width: 50%;
+    height: auto;
+  }
+  .benefitsHeader h2{
+    font-size: 28px;
+  }
+  .desctopText{
+    display: none;
+  }
+  .mobileText{
+    display: unset;
+  }
+  .salesEl{
+    margin-left: 0;
+    margin-top: -200px;
+  }
+  .smileEl{
+    margin-left: 0;
+    margin-top: -10rem;
+    //padding-top: 500px;
+  }
+  .searchEl{
+    margin-left: 0;
+    margin-top: 10rem;
+    // padding-top: 10rem;
+  }
+  .clockEl{
+    margin-left: 0;
+    margin-top: -55rem;
+  }
+}

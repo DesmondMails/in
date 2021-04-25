@@ -10,6 +10,9 @@
   background-repeat: no-repeat;
   z-index: 1;
 }
+.mobilePlayIcon{
+  display: none;
+}
 .playIcon{
   transition: 0.3s ease-out;
 
@@ -18,13 +21,29 @@
   cursor: pointer;
   transform: scale(1.1);
 }
-.topImg{
-  //position: absolute;
-  //left: -463px;
-  //top: 1604px;
-}
-.topImg img{
-  position: absolute;
-  width: 100%;
-
+@media (max-width: 768px) {
+  .video{
+    background-image: url('../../images/mobile/video_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    // z-index: 1;
+    width: 100%;
+  }
+  .playIcon{
+    display: none;
+    // height: 10px;
+    // width: auto;
+  }
+  .mobilePlayIcon{
+    transition: 0.3s ease-out;
+    display: unset;
+  }
+  .mobilePlayIcon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
 }

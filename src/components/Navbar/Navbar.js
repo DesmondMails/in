@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import style from './Navbar.module.scss'
 import logo from '../../images/logo.png'
 import menu_expand from '../assets/icons/menu_expand.png'
+import {Link} from 'react-scroll'
 const Navbar = () => {
     const [isExpanded,setIsExpanded] = useState(false);
 
@@ -12,11 +13,11 @@ const Navbar = () => {
             </div>
             <img className={style.expandIcon} src={menu_expand}  onClick={() => setIsExpanded(!isExpanded)}/>
             <ul className={style.menu + " " + isExpanded ? style.expanded : "" }>
-                <li><a href="">About</a></li>
-                <li><a href="">How it works</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contacts</a></li>
-                <li><a href="" className={style.navButton}>Let's talk</a></li>
+                <li><Link to='about' smooth={true} duration={2000}>About</Link></li>
+                <li><Link to='video' smooth={true} duration={2000}>How it works</Link></li>
+                <li><Link to='projects' smooth={true} duration={2000}>Projects</Link></li>
+                <li><Link to='contacts' smooth={true} duration={2000}>Contacts</Link></li>
+                <li><Link to='feedback' smooth={true} duration={2000} className={style.navButton}>Let's talk</Link></li>
             </ul>
         </nav>
     );
